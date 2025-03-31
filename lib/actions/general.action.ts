@@ -1,7 +1,7 @@
 "use server";
 
 import { generateObject } from "ai";
-import { google } from "@ai-sdk/google"; 
+import { google } from "@ai-sdk/google";
 
 import { db } from "@/app/firebase/admin";
 import { feedbackSchema } from "@/constants";
